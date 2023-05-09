@@ -15,7 +15,7 @@ CREATE TABLE role (
     department_id INT,
     FOREIGN KEY (department_id)
     REFERENCES department(id)
-    ON DELETE RESTRICT
+    ON DELETE CASCADE
 );
 
 CREATE TABLE employee (

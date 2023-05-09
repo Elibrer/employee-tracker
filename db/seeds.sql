@@ -3,9 +3,7 @@ INSERT INTO department (name)
 VALUES  ('Grocery'),
         ('Dairy'),
         ('Produce'),
-        ('Drivers'),
         ('Online'),
-        ('Shoppers'),
         ('Management');
 
 INSERT INTO role (title, salary, department_id)
@@ -17,12 +15,12 @@ VALUES  ('Nightfill', 45000, 1),
         ('Produce Captain', 50000, 3),
         ('Delivery Driver', 55000, 4),
         ('Lead Delivery Driver', 65000, 4),  
-        ('Shopper', 50000, 6),
+        ('Shopper', 50000, 4),
         ('Grocery Manager', 78000, 1),
         ('Dairy Manager', 80000, 2),
         ('Produce Manager', 80000, 3),
-        ('Online manager', 85000, 5),
-        ('Store Manager', 120000, 7);
+        ('Online manager', 85000, 4),
+        ('Store Manager', 120000, 5);
 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
