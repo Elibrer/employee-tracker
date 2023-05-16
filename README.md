@@ -1,4 +1,4 @@
-## Business Employee Tracker Tracker by Elibrer 
+## Business Employee Tracker by Elibrer 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
